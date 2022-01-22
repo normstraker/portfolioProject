@@ -1,0 +1,9 @@
+CSS Grid
+
+.container {
+	padding: 2rem;
+	display: grid;
+	grid-gap: 1rem;
+/* grid-template-columns: 1fr 1fr 1fr; */	
+grid-template-columns: repeat(auto-fill,minmax(20rem, 1fr));
+}
